@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "Root Repository",
+      "path": "."
+    },
+    {
+      "name": "Project a",
+      "path": "project_a"
+    }
+  ],
+  "settings": {
+    "python.terminal.activateEnvironment": true
+  }
+}

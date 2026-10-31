@@ -1,0 +1,30 @@
+# Environment and secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/*service-account*.json
+**/*credentials*.json
+**/application_default_credentials.json
+
+# Virtual environments
+**/.venv/
+**/venv/
+**/env/
+**/ENV/
+
+# Python
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and OS files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+
+# Existing credential file
+gen-lang-client-0667253959-a8604d4a3ee4.json
