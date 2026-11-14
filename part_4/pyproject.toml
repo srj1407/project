@@ -1,0 +1,25 @@
+[project]
+name = "part-4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "srj1407", email = "85947590+srj1407@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "alpha-vantage>=3.0.0",
+    "google-genai>=3.3.0",
+    "pandas>=3.1.1",
+    "python-dotenv>=1.2.4",
+    "strands-agents-tools>=0.8.9,<0.9.0",
+    "strands-agents[openai]>=1.64.0",
+    "yfinance>=1.8.0",
+]
+
+[project.scripts]
+part-4 = "part_4:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"

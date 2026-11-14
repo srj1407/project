@@ -7,6 +7,14 @@
     {
       "name": "Project a",
       "path": "project_a"
+    },
+    {
+      "name": "Project b",
+      "path": "project_b"
+    },
+    {
+      "name": "Part_4",
+      "path": "part_4"
     }
   ],
   "settings": {
