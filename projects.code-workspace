@@ -13,8 +13,12 @@
       "path": "project_b"
     },
     {
-      "name": "Part_4",
-      "path": "part_4"
+      "name": "Section_4",
+      "path": "section_4"
+    },
+    {
+      "name": "Section_5",
+      "path": "section_5"
     }
   ],
   "settings": {

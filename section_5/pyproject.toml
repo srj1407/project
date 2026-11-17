@@ -1,0 +1,23 @@
+[project]
+name = "section-5"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "srj1407", email = "85947590+srj1407@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "a2a-sdk>=0.3.0,<0.4.0",
+    "google-genai>=3.4.0",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.23.0,<2.0.0",
+    "strands-agents[a2a]>=1.65.0",
+]
+
+[project.scripts]
+section-5 = "section_5:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
